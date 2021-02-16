@@ -25,16 +25,15 @@ def search(root,key):
     if root.val < key: 
         return search(root.right,key)
     return search(root.left,key) 
-r = Node(50) 
-r = insert(r, 30) 
-r = insert(r, 20) 
-r = insert(r, 40) 
-r = insert(r, 70) 
-r = insert(r, 60) 
-r = insert(r, 80)
+r = Node(6) 
+r = insert(r, 3) 
+r = insert(r, 2) 
+r = insert(r, 4) 
+r = insert(r, 7) 
+r = insert(r, 5) 
+r = insert(r, 8)
 inorder(r)
-if search(r, 80):
+if search(r, 8):
     print("element is present")
 else:
     print("element is not present")
-© 2021 GitHub, Inc.
