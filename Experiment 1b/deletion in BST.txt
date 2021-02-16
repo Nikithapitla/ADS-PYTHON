@@ -54,16 +54,16 @@ def delete(root, key):
         key_node.data = x 
     return root
 if __name__=='__main__': 
-    root = Node(10) 
-    root.left = Node(11) 
+    root = Node(12) 
+    root.left = Node(9) 
     root.left.left = Node(7) 
-    root.left.right = Node(12) 
-    root.right = Node(9) 
+    root.left.right = Node(13) 
+    root.right = Node(6) 
     root.right.left = Node(15) 
-    root.right.right = Node(8) 
+    root.right.right = Node(4) 
     print("The tree before the deletion:") 
     inorder(root) 
-    key = 11
+    key = 6
     root = delete(root, key) 
     print() 
     print("The tree after the deletion;") 
