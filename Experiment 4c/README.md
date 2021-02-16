@@ -1,6 +1,7 @@
 Experiment 4c
+
 Aim of the experiment - Write a program to perform the following operations:
-4b)Search an element from a Min-Max heap
+4c)Search an element from a Min-Max heap
 
 procedure for the experiment
 1.heap can be used to search whether an element is in it or not with O(logN) time complexity. 
