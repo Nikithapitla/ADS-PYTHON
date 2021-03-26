@@ -1,5 +1,10 @@
 Experiment11: Brute Force Pattern Matching
+
+
+
 Aim of the experiment - Write a program for implementing Brute Force pattern matching algorithm
+
+
 procedure for the experiment
 The naive method is simply a brute force method of searching for the given substring in the main string.
 The method is to start looking for each letter in the main string. If the first letter of the supplied substring matches, 
