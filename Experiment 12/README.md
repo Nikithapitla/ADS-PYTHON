@@ -7,7 +7,8 @@ procedure for the experiment
 
 Boyer Moore is a combination of following two approaches.
 
-1.Bad Character Heuristic
+1.Bad Character Heuristic.
+
 2.Good Suffix Heuristic Both of the above heuristics can also be used independently to search a pattern in a text.
 If we take a look at the Naive algorithm, it slides the pattern over the text one by one. 
 KMP algorithm does preprocessing over the pattern so that the pattern can be shifted by more than one. 
@@ -18,6 +19,7 @@ So it uses best of the two heuristics at every step. Unlike the previous pattern
 Boyer Moore algorithm starts matching from the last character of the pattern.
 The idea of bad character heuristic is simple. The character of the text which doesn’t match
 with the current character of the pattern is called the Bad Character. Upon mismatch, we shift the pattern until –
+
 3.The mismatch becomes a match
 Pattern P move past the mismatched character. 
 Case 1 – Mismatch become match We will lookup 
