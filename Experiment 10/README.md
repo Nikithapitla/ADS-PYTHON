@@ -1,5 +1,5 @@
 
-Experiment 10
+Experiment 9
 
 
 AIM: To implement all the function of a dictionary using hashing
